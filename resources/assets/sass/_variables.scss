@@ -1,0 +1,66 @@
+
+// Body
+$body-bg: #f5f8fa;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+.jumbotron {
+    text-align: left;
+    background-image: url(../images/header.jpg) !important;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    color: black;
+    transition: text-indent .4s;
+    background-position: right;
+    background-color:white !important;
+
+}
+.jumbotron p {
+    visibility: hidden;}
+
+.jumbotron:hover {
+        text-indent: 15px;
+        transition: text-indent 0.5s;
+    }
+.jumbotron:hover p {
+        visibility: visible;
+        text-indent: 15px;
+        transition: text-indent 0.5s;
+    }
+
+
+.sideImg {
+
+height:50%;
+width: 50%;
+
+}
+/* CSS used here will be applied after bootstrap.css */
+
+#change {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    margin:20px;
+  }
+  .underlineOver:hover {
+
+text-decoration: underline;
+  }
+
+
+   
+  
+  #change:hover{
+        opacity:20;
+    cursor:pointer;
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  }
+
+
+    
+
+
